@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'napari_nucleaizer'
+copyright = '2022, Ervin Tasnadi'
+author = 'Ervin Tasnadi'
 
 release = '0.1'
 version = '0.1.0'

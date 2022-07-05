@@ -1,13 +1,17 @@
-Welcome to Lumache's documentation!
-===================================
+Napari nucleAIzer plugin documentation
+======================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**NucleAIzer** is a nuclei segmentation algorithm.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+By installing our plugin into the Napari viewer, you can:
+
+- Predict your microscopy images loaded into the Napari's stage.
+
+- Predict multiple images using one click by selecting the input and the result folder (batch prediction).
+
+- If you have GPU support, you can optimize our models to your data (or train new models from scratch).
+
+Check out the :ref:`installation` for installation and the :doc:`usage` manual.
 
 .. note::
 
@@ -18,5 +22,5 @@ Contents
 
 .. toctree::
 
+   install
    usage
-   api
